@@ -1,0 +1,26 @@
+# 全ての検索エンジンクローラーを拒否
+User-agent: *
+Disallow: /
+Crawl-delay: 86400
+
+# 特に主要な検索エンジンを明示的に拒否
+User-agent: Googlebot
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: DuckDuckBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+# サイトマップは提供しない
+Sitemap:
